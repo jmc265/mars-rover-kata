@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/james/.nvm/versions/node/v14.15.4/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add --dev typescript jest @test/jest ts-jest
+
+PATH: 
+  /Users/james/Downloads/google-cloud-sdk/bin:/Users/james/.nvm/versions/node/v14.15.4/bin:/Users/james/workspace/tsunami/scripts:/Users/james/bin:/Users/james/.jenv/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin:/Users/james/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/james/Library/Android/sdk/emulator:/Users/james/Library/Android/sdk/tools:/Users/james/Library/Android/sdk/tools/bin:/Users/james/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@test%2fjest: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "mars-rover",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "James Cross <james@breakingwave.com>",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

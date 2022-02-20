@@ -1,0 +1,18 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "James Cross <james@breakingwave.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+      "test": "jest",
+      "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
+}
